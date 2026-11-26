@@ -4,7 +4,7 @@ resources:
   - ../../base
 images:
   - name: agenda-app
-    newName: gabriel.duarte/gabriel-gomes/agenda
+    newName: image-registry.openshift-image-registry.svc:5000/gabriel-gomes-dev/agenda
     newTag: v1
 replicas:
   - name: agenda-web
